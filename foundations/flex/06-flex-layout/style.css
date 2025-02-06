@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  
 }
 
 button {
@@ -16,6 +17,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px;
+  margin-
 }
 
 input {
@@ -24,3 +27,84 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.links1 {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  justify-content: space-between;
+  margin-right: 40px;
+  
+}
+
+.left-links {
+  display: flex;
+  gap: 16px;
+
+
+}
+
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-right: 40px;
+  background-color: lightgrey;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding-right: 40px;
+
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+ }
+
+ a {
+  color: gray;
+  text-decoration: none;
+ }
+
+ 
+
+  
+
+
+
+
+
+
+ 
+
